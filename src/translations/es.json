@@ -1,0 +1,11 @@
+{
+    "navbar": [
+        "home",
+        "sobre",
+        "aplicaciones"
+    ],
+    "header": {
+        "welcome": "Bienvenido a",
+        "title": "El programa para gestionar íntegramente tu consulta y realizar videoconferencias  100% seguras. Cumplimos los más altos estándares de seguridad."
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "navbar": [
+        "home",
+        "sobre",
+        "aplicaciones"
+    ],
+    "header": {
+        "welcome": "Benvingut a",
+        "title": "Tot en una plataforma per la gestió de la teva consulta medica. "
+    }
+}

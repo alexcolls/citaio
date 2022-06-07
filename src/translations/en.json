@@ -1,0 +1,11 @@
+{
+    "navbar": [
+        "home",
+        "sobre",
+        "aplicaciones"
+    ],
+    "header": {
+        "welcome": "Welcome to",
+        "title": "All in one platform for medical management. "
+    }
+}
