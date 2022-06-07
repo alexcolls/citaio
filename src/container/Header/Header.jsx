@@ -8,7 +8,7 @@ import img2 from './assets/schedule.png';
 import img3 from './assets/video-camera.png';
 import './Header.scss';
 
-import { useTranslation } from 'react-i18next'
+import { useTranslation } from 'react-i18next';
 
 const scaleVariants = {
     whileInView: {

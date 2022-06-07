@@ -5,7 +5,7 @@ import { images } from '../../constants';
 import { useTranslation } from 'react-i18next';
 import './Navbar.scss';
 
-const menuList = ['home', 'about', 'work', 'skills', 'testimonial', 'contact']
+const menuList = ['home', 'about', 'features', 'price', 'testimonial', 'contact']
 
 
 

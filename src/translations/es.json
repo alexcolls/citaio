@@ -1,11 +1,31 @@
 {
     "navbar": [
-        "home",
+        "casa",
         "sobre",
         "aplicaciones"
     ],
     "header": {
         "welcome": "Bienvenido a",
         "title": "El programa para gestionar íntegramente tu consulta y realizar videoconferencias  100% seguras. Cumplimos los más altos estándares de seguridad."
+    },
+    "about": {
+        "title": "Sobre nosotros",
+        "p1": "CITA.iO fue creada por profesionales sanitarios y expertos tecnológicos. Durante 2 años diseñaron y testaron el software para satisfacer las necesidades reales de profesionales y pacientes. Hoy en día sigue creciendo y añadiendo nuevas funcionalidades.",
+        "p2": "CITA.iO no requiere instalación, es personalizable y accesible desde cualquier dispositivo. Configurable en pocos minutos."
+    },
+    "features": {
+        "title": "Porque",
+        "title2": "es diferente",
+        "filter": [
+            "Comunicación",
+            "Seguridad",
+            "Organización",
+            "TODO"
+        ],
+        "one": {
+            "title": "Videoconferencia",
+            "description": "Videoconferencia médica segura y encriptada.  Acceso a la historia clínica, a la agenda y a los archivos compartidos, desde la video. Chat dentro del la videoconferencia. Posibilidad de grabar las sesiones.",
+            "tag": "Comunicación"
+        }
     }
 }

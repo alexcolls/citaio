@@ -1,69 +1,39 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 
+
 import { AppWrap, MotionWrap } from '../../wrapper';
 import './About.scss';
-import { urlFor, client } from '../../client';
 
-import img from './contents/images/about01.png'
-
+import { useTranslation } from 'react-i18next';
 
 const About = () => {
 
+  const [t] = useTranslation("global");
+
   return (
     <>
-      <h2 className="head-text">Built by <span>Doctors</span> <br />for  <span>Doctors</span></h2>
-      <div className="app__profiles">
-        <motion.div
-          whileInView={{ opacity: 1 }}
-          whileHover={{ scale: 1.1 }}
-          transition={{ duration: 0.5, type: 'tween' }}
-          className="app__profile-item"
+      <h2 className="head-text">{t("about.title")}</h2>
 
-        >
-          <img src={img} alt='' />
-          <h2 className="bold-text" style={{ marginTop: 20 }}>Helloo</h2>
-          <p className="p-text" style={{ marginTop: 10 }}>WOrld</p>
+      <div className="app__about-container">
+        <motion.div className="app__about-list">
+
+
+
         </motion.div>
 
-        <motion.div
-          whileInView={{ opacity: 1 }}
-          whileHover={{ scale: 1.1 }}
-          transition={{ duration: 0.5, type: 'tween' }}
-          className="app__profile-item"
 
-        >
-          <img src={img} alt='' />
-          <h2 className="bold-text" style={{ marginTop: 20 }}>Helloo</h2>
-          <p className="p-text" style={{ marginTop: 10 }}>WOrld</p>
-        </motion.div>
+        <div className="app__about-exp">
 
-        <motion.div
-          whileInView={{ opacity: 1 }}
-          whileHover={{ scale: 1.1 }}
-          transition={{ duration: 0.5, type: 'tween' }}
-          className="app__profile-item"
+          <motion.div
+            className="app__about-exp-item"
 
-        >
-          <img src={img} alt='' />
-          <h2 className="bold-text" style={{ marginTop: 20 }}>Helloo</h2>
-          <p className="p-text" style={{ marginTop: 10 }}>WOrld</p>
-        </motion.div>
+          >
 
-        <motion.div
-          whileInView={{ opacity: 1 }}
-          whileHover={{ scale: 1.1 }}
-          transition={{ duration: 0.5, type: 'tween' }}
-          className="app__profile-item"
+          </motion.div>
 
-        >
-          <img src={img} alt='' />
-          <h2 className="bold-text" style={{ marginTop: 20 }}>Helloo</h2>
-          <p className="p-text" style={{ marginTop: 10 }}>WOrld</p>
-        </motion.div>
+        </div>
       </div>
-
-
     </>
   );
 };
